@@ -121,7 +121,8 @@ body {
     }
   }
   #content-section {
-    max-width: calc(100vw - 350px);
+    transform: translate3d(300px, 0, 0);
+    max-width: calc(100vw - 300px);
     background: #ed4852; /* Old browsers */
     background: -moz-radial-gradient(
       center,
@@ -345,11 +346,20 @@ h2 {
   margin-bottom: 3rem;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
   #app-layout {
     .side-menu {
       display: none;
     }
+  }
+  .welcome-jumbo {
+    transform: translate3d(0, 0, 0);
+    width: 100%;
+    max-width: 100vw;
+    padding: 20px;
+  }
+  #information {
+    grid-template-columns: 1fr;
   }
 }
 

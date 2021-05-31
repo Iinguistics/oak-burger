@@ -427,5 +427,12 @@ h2 {
 
   #information {
     grid-template-columns: 1fr;
+    grid-template-rows: 225px auto;
+  }
+  #information .info {
+    padding: 20px;
+  }
+  #information .paragraphs {
+    grid-template-columns: 1fr;
   }
 }

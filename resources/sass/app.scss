@@ -360,6 +360,13 @@ h2 {
   }
   #information {
     grid-template-columns: 1fr;
+    grid-template-rows: 225px auto;
+    .info {
+      padding: 20px;
+    }
+    .paragraphs {
+      grid-template-columns: 1fr;
+    }
   }
 }
 

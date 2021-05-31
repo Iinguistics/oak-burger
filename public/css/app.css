@@ -206,10 +206,6 @@ body {
 }
 #app-layout #content-section {
   max-width: calc(100vw - 350px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background: #ed4852;
   /* Old browsers */
   /* FF3.6-15 */
@@ -217,7 +213,6 @@ body {
   background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   overflow: hidden;
-  padding: 100px;
 }
 
 #information {

@@ -95,6 +95,18 @@ table {
   position: relative;
 }
 
+#about-page {
+  padding: 100px;
+}
+#about-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#about-page .content-box {
+  background: #fff;
+  padding: 20px;
+}
+
 body {
   line-height: 1;
   background: white;

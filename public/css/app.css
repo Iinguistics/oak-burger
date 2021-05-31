@@ -102,6 +102,12 @@ table {
   font-size: 3rem;
   font-weight: 700;
 }
+#about-page p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
 #about-page .content-box {
   background: #fff;
   padding: 20px;

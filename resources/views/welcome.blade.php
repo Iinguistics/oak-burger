@@ -28,7 +28,7 @@
           similique!</p>
       </div>
       <a href="#" class="about-link">
-        <span>Learn more about restaurants</span>
+        <span>Learn more about Oak</span>
         <div class="circle-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
       </a>
     </div>

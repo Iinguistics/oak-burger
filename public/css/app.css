@@ -109,10 +109,6 @@ table {
   margin-bottom: 2rem;
   font-weight: 500;
 }
-#about-page .content-box {
-  background: #fff;
-  padding: 20px;
-}
 
 @media (min-width: 0px) and (max-width: 767px) {
   #about-page {
@@ -475,6 +471,11 @@ h2 {
   }
   #food-preview .food-slider .slide {
     width: 100%;
+  }
+
+  .content-box {
+    background: #fff;
+    padding: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

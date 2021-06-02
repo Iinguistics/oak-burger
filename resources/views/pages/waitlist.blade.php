@@ -15,24 +15,24 @@
           </div>
           <div class="form-group">
             <label for="phoneInput">Phone Number</label>
-            <input name="phone" type="text" class="form-control" id="phoneInput" placeholder="enter phone number">
+            <input name="phone" type="text" class="form-control" id="phoneInput" placeholder="916-555-5555">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Party Size</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label for="guests">Party Size</label>
+            <select class="form-control" id="guests" name="party">
               <option>1</option>
               <option>2</option>
               <option>3</option>
               <option>4</option>
-              <option>5</option>
+              <option>5+</option>
             </select>
           </div>
           <div class="form-group">
             <label for="date">Select a date</label>
-            <input type="date" name="date" />
+            <input type="date" name="date"  id="date"/>
           </div>
           <label for="time">Select a time </label>
-          <input type="time" name="time" /> <br />
+          <input type="time" name="time" id="time" min="11:00" max="20:00" required /> <br />
          <input type="submit" class="btn btn-outline-primary mt-3" />
         </form>
       </div>

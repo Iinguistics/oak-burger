@@ -348,6 +348,11 @@ h2 {
   margin-bottom: 3rem;
 }
 
+.content-box {
+  background: #fff;
+  padding: 20px;
+}
+
 @media (min-width: 0px) and (max-width: 767px) {
   #app-layout {
     .side-menu {
@@ -403,10 +408,6 @@ h2 {
         width: 100%;
       }
     }
-  }
-  .content-box {
-    background: #fff;
-    padding: 20px;
   }
 }
 

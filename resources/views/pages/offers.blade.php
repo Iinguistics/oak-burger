@@ -7,32 +7,43 @@
   <div class="content-box">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="mb-3">Get on the list</h1>
+        <h1 class="mb-3">Get the latest offers</h1>
         <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="phoneInput">Phone Number</label>
+                <input name="phone" type="text" class="form-control" id="phoneInput" placeholder="916-555-5555">
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="phoneInput">Phone Number</label>
-            <input name="phone" type="text" class="form-control" id="phoneInput" placeholder="916-555-5555">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="firstNameInput">First Name</label>
+                <input name="firstName" type="text" class="form-control" id="firstNameInput" placeholder="John">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="lastNameInput">Last Name</label>
+                <input name="lastName" type="text" class="form-control" id="lastNameInput" placeholder="Doe">
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="guests">Party Size</label>
-            <select class="form-control" id="guests" name="party">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5+">5+</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="date" class="mr-1">Select a date</label>
-            <input type="date" name="date"  id="date"/>
-          </div>
-          <label for="time" class="mr-1">Select a time </label>
-          <input type="time" name="time" id="time" min="11:00" max="20:00" required /> <br />
+
+         
+          
+          
+          
+        
          <input type="submit" class="btn btn-outline-primary mt-3" />
         </form>
       </div>

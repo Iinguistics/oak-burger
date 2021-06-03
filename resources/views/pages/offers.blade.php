@@ -48,12 +48,10 @@
         </form>
       </div>
       <div class="col-md-6 mt-3">
-        <p>Please note: This is not a reservation. You will be added to the current waitlist. You may have a short 
-          wait once you arrive while we prepare your table. 
+        <p>In signing up you are acknowledge that I am 18 years of age or older & want to receive email offers 
+          from Oak Burger & agree to the terms & service agreement.
         </p>
-        <p> 
-          If you are on the waitlist and have to wait longer than 10 minutes your meal is on us!        
-        </p>
+       
       </div>
     </div>
   </div>

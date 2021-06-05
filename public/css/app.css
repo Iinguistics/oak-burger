@@ -188,7 +188,10 @@ table {
 }
 #menu-page #food-preview .left-btn,
 #menu-page #food-preview .right-btn {
-  background: #000;
+  background: #2e2b3b;
+}
+#menu-page #food-preview .slide:hover .background {
+  background: #2e2b3b;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {

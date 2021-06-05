@@ -10,7 +10,14 @@
     }
     .left-btn,
     .right-btn {
-      background: #000;
+      background: rgb(46, 43, 59);
+    }
+    .slide {
+      &:hover {
+        .background {
+          background: rgb(46, 43, 59);
+        }
+      }
     }
   }
 }

@@ -174,6 +174,30 @@ table {
     padding: 20px;
   }
 }
+#menu-page {
+  padding: 100px;
+}
+#menu-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#menu-page p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
 body {
   line-height: 1;
   background: white;

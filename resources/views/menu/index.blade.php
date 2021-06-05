@@ -4,24 +4,150 @@
 
 @section('content')
 <div id="menu-page">
-  <div class="content-box">
-    <div class="row">
-      <div class="col">
-        <h1 class="mb-3">Menu</h1>
-        <p>I'm baby raw denim taxidermy distillery, shoreditch heirloom quinoa literally church-key hell of. Asymmetrical farm-to-table la croix migas tote bag fanny pack snackwave meditation 90's schlitz tofu taiyaki. Freegan pour-over cold-pressed 90's, raclette yr bitters copper mug. Sustainable poke vexillologist green juice retro woke neutra raclette try-hard meh quinoa cold-pressed.
-          Franzen meggings master cleanse jean shorts blog everyday carry. Everyday carry cloud bread fam adaptogen. Affogato asymmetrical mumblecore everyday carry narwhal polaroid. Green juice wolf fixie wayfarers unicorn.
-        </p>
-        <p>I'm baby raw denim taxidermy distillery, shoreditch heirloom quinoa literally church-key hell of. Asymmetrical farm-to-table la croix migas tote bag fanny pack snackwave meditation 90's schlitz tofu taiyaki. Freegan pour-over cold-pressed 90's, raclette yr bitters copper mug. Sustainable poke vexillologist green juice retro woke neutra raclette try-hard meh quinoa cold-pressed.
-          Franzen meggings master cleanse jean shorts blog everyday carry. Everyday carry cloud bread fam adaptogen. Affogato asymmetrical mumblecore everyday carry narwhal polaroid. Green juice wolf fixie wayfarers unicorn.
-        </p>
+  <section id="food-preview">
+    <h2>We have everything you need to kill your hunger</h2>
+    <div class="button-rounded">View Our Menu</div>
+    <div class="container">
+      <div class="left-btn">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="right-btn">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+      <div class="food-slider">
+        <div class="sliding-system">
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Starters
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img src="https://taco.sfo2.digitaloceanspaces.com/2019/04/CHIPS.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Burgers
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Entrees
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img src="https://www.pngkey.com/png/full/342-3422633_pork-entrees-steak-pork-png.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Sides
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img src="img/fries.jpg">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Deserts
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img
+                  src="img/dessert.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Beers
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img
+                  src="https://pngriver.com/wp-content/uploads/2018/04/Download-Cupcake-PNG-Transparent-Image-420x190.png">
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Drinks
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img
+                  src="https://pngriver.com/wp-content/uploads/2018/04/Download-Cupcake-PNG-Transparent-Image-420x190.png">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <img class="img-fluid" src="img/about-oak-burger.jpg" />
-      </div>
-    </div>
-  </div>
+
+  </section>
+ 
 
 </div>
   

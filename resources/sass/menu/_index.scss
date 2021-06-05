@@ -1,18 +1,19 @@
 #menu-page {
   padding: 100px;
-  h1 {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-
-  p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    font-weight: 500;
+  #food-preview {
+    padding: 0;
+    background: transparent;
+    h2 {
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 130px;
+    }
+    .left-btn,
+    .right-btn {
+      background: #000;
+    }
   }
 }
-
 @media (min-width: 0px) and (max-width: 767px) {
   #menu-page {
     padding: 20px;

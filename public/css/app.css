@@ -177,15 +177,18 @@ table {
 #menu-page {
   padding: 100px;
 }
-#menu-page h1 {
-  font-size: 3rem;
-  font-weight: 700;
+#menu-page #food-preview {
+  padding: 0;
+  background: transparent;
 }
-#menu-page p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  font-weight: 500;
+#menu-page #food-preview h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 130px;
+}
+#menu-page #food-preview .left-btn,
+#menu-page #food-preview .right-btn {
+  background: #000;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {

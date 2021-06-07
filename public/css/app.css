@@ -204,6 +204,36 @@ table {
     padding: 20px;
   }
 }
+#single-menu-page {
+  padding: 100px;
+}
+#single-menu-page #food-preview {
+  padding: 0;
+  background: transparent;
+}
+#single-menu-page #food-preview h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 130px;
+}
+#single-menu-page #food-preview .left-btn,
+#single-menu-page #food-preview .right-btn {
+  background: #2e2b3b;
+}
+#single-menu-page #food-preview .slide:hover .background {
+  background: #2e2b3b;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
 body {
   line-height: 1;
   background: white;

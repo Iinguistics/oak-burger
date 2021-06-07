@@ -5,7 +5,7 @@
 @section('content')
 <div id="single-menu-page">
     <div class="row">
-        <div class="offset-md-2 col-md-8">
+        <div class="offset-md-1 col-md-10 col-sm-12 offset-sm-12 col-lg-8 offset-lg-2 ">
             <div class="content-box">
                 <div class="row">
                     <div class="col-md-12">

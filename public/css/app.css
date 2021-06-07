@@ -207,30 +207,35 @@ table {
 #single-menu-page {
   padding: 100px;
 }
-#single-menu-page #food-preview {
-  padding: 0;
-  background: transparent;
+#single-menu-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ed4852;
+  margin-bottom: 1.5rem;
 }
-#single-menu-page #food-preview h2 {
-  color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 130px;
+#single-menu-page .item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-#single-menu-page #food-preview .left-btn,
-#single-menu-page #food-preview .right-btn {
-  background: #2e2b3b;
+#single-menu-page .item h4 {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 800;
 }
-#single-menu-page #food-preview .slide:hover .background {
-  background: #2e2b3b;
+#single-menu-page .item .price {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 600;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  #menu-page {
+  #single-menu-page {
     padding: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  #menu-page {
+  #single-menu-page {
     padding: 20px;
   }
 }

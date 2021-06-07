@@ -1,34 +1,35 @@
 #single-menu-page {
   padding: 100px;
-  #food-preview {
-    padding: 0;
-    background: transparent;
-    h2 {
-      color: #fff;
-      text-transform: uppercase;
-      margin-bottom: 130px;
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ed4852;
+    margin-bottom: 1.5rem;
+  }
+  .item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    h4 {
+      font-size: 1.4rem;
+      color: #000;
+      font-weight: 800;
     }
-    .left-btn,
-    .right-btn {
-      background: rgb(46, 43, 59);
-    }
-    .slide {
-      &:hover {
-        .background {
-          background: rgb(46, 43, 59);
-        }
-      }
+    .price {
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 600;
     }
   }
 }
 @media (min-width: 0px) and (max-width: 767px) {
-  #menu-page {
+  #single-menu-page {
     padding: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #menu-page {
+  #single-menu-page {
     padding: 20px;
   }
 }

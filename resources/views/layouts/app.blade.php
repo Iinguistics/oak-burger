@@ -24,6 +24,5 @@
                 @yield('content')
             </section>
           </section>
-         
     </body>
 </html>

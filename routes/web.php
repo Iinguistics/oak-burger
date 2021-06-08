@@ -21,11 +21,11 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
-Route::get('/register', function () {
+Route::get('/admin/register', function () {
     return view('admin.register');
 });
 
-Route::get('/login', function () {
+Route::get('/admin/login', function () {
     return view('admin.login');
 });
 

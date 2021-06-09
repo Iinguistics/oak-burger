@@ -38,30 +38,60 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col">Id</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Date Created</th>
+                                        <th scope="col">Edit</th>
+                                        <th scope="col">Delete</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>Starters</td>
+                                        <td>6/5/2021</td>
+                                        <td><a href="/admin/food-categories/1/edit"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="/admin/food-categories/1/delete" 
+                                            onclick="if (! confirm('Are you sure you want to delete?')) {return false; }">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a></td>                                    
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Burgers</td>
+                                        <td>6/1/2021</td>
+                                        <td><a href="/admin/food-categories/2/edit"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="/admin/food-categories/2/delete"
+                                            onclick="if (! confirm('Are you sure you want to delete?')) {return false; }"
+                                            ><i class="fas fa-trash-alt"></i></a></td>                                    
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td>Entrees</td>
+                                        <td>6/5/2021</td>
+                                        <td><a href="/admin/food-categories/3/edit"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="/admin/food-categories/3/delete"
+                                            onclick="if (! confirm('Are you sure you want to delete?')) {return false; }"
+                                            ><i class="fas fa-trash-alt"></i></a></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Sides</td>
+                                        <td>5/10/2021</td>
+                                        <td><a href="/admin/food-categories/4/edit"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="/admin/food-categories/4/delete"
+                                            onclick="if (! confirm('Are you sure you want to delete?')) {return false; }"
+                                            ><i class="fas fa-trash-alt"></i></a></td>                                    
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Deserts</td>
+                                        <td>5/22/2021</td>
+                                        <td><a href="/admin/food-categories/5/edit"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="/admin/food-categories/5/delete"
+                                            onclick="if (! confirm('Are you sure you want to delete?')) {return false; }"
+                                            ><i class="fas fa-trash-alt"></i></a></td>                                    
                                     </tr>
                                 </tbody>
                             </table>

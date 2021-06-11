@@ -27,24 +27,16 @@
                     <div id="submenu-2" class="collapse submenu" style="">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Infulencer</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Food Catagories</a>
                                 <div id="submenu-1-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-influencer.html">Influencer</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="influencer-finder.html">Influencer Finder</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="influencer-profile.html">Influencer Profile</a>
+                                            <a class="nav-link" href="/admin/food-catagories">All Food Categories <span class="badge badge-secondary">New</span></a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/cards.html">Food Categories <span class="badge badge-secondary">New</span></a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="pages/cards.html">Food Items <span class="badge badge-secondary">New</span></a>
                             </li>
